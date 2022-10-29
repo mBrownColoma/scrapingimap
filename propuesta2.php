@@ -34,7 +34,7 @@ $array_num = count($result);
 //xecho($array_num);
 
 for ($i = 0; $i < $array_num; ++$i){
-    if($result["inbox"][$i]["subject"] == "contac3"){
+    if($result["inbox"][$i]["subject"] == "contac2"){
 		echo '<pre>';
         echo($result["inbox"][$i]["subject"]);
         echo($result["inbox"][$i]["message"]);
