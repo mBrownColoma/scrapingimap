@@ -54,8 +54,8 @@ for ($i = 0; $i < 10; ++$i){
 			echo '<pre>';
 			$rut = substr($subcontent, 0, strpos($subcontent, "-")+2);
 			echo '<pre>';
-			$subcontent2 = substr($subcontent, (1+strpos($subcontent, "-")+1), ($pos_close - strpos($subcontent, "-")+1));
-			echo ($subcontent2);
+			$subcontent = substr($subcontent, (1+strpos($subcontent, "-")+1), ($pos_close - strpos($subcontent, "-")+1));
+			echo ($subcontent);
 			echo '<pre>';
 			$datolimpio = [
 				"rut" => $rut,
